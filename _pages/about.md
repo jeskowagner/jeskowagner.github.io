@@ -20,7 +20,7 @@ My previous [research projects](/projects/) spanned everything from (epi-)genomi
 In the process, I investigated DNA fragility, predicted gene pathway defects from genetic scars, and found changes in epigenetic states from single-cell MNase-seq data.
 Throughout this time I gathered experience in best practices in data science, developed skills in machine-learning, and learned a lot about assessing omics through sequencing.
 
-Want to learn more? Feel free to get in touch, I am always happy to chat over an informal coffee. You can find my contact details by clicking on one of the three buttons on the top left.
+Want to learn more? Feel free to get in touch, I am always happy to chat over an informal coffee. You can find my contact details by clicking on one of the buttons on the top left.
 
 ## Current and past affiliations
 
