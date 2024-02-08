@@ -2,19 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank  # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Jesko
-middle_name: 
+middle_name:
 last_name: Wagner
 email: jesko.wagner@ed.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD student at Edinburgh University fascinated by genomics and data science with experience in bioinformatics and machine-learning.
-footer_text: 
+footer_text:
 #icon:  # the emoji used as the favicon
-url: https://jeskowagner.github.io  # the base hostname & protocol for your site
+url: https://jeskowagner.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -62,7 +62,6 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
   #contact_note: >
-  
 
   #google_analytics: UA-XXXXXXXXX # out your google-analytics code
   #panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -72,15 +71,15 @@ dblp_url: # your DBLP profile url
 # -----------------------------------------------------------------------------
 
 blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: 
-permalink: 
+blog_description:
+permalink:
 
 # Pagination
 pagination:
   enabled: false
 
 # Comments
-disqus_shortname:  # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -106,11 +105,11 @@ news_limit: 5
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -118,7 +117,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude:
   - bin
   - Gemfile
@@ -148,7 +147,6 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Wagner
   first_name: [Jesko, J.]
 
@@ -176,18 +174,21 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
-enable_math:                false  # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       true   # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_google_analytics: false # enables google analytics
+enable_panelbear_analytics: false # enables panelbear analytics
+enable_mansory: true # enables automatic project cards arangement
+enable_math: false # enables math typesetting (uses MathJax)
+enable_tooltips:
+  false # enables automatic tooltip links generated
+  # for each section titles on pages and posts
+enable_darkmode: true # enables switching between light/dark modes
+enable_navbar_social:
+  true # enables displaying social links in the
+  # navbar on the about page
+enable_project_categories:
+  true # enables categorization of projects into
+  # multiple categories
+enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------
 # Library versions

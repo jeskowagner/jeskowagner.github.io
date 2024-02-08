@@ -6,7 +6,7 @@ description: PhD student of bioinformatics at University of Edinburgh
 
 profile:
   align: right
-  image: cv_pic_cropped.jpg
+  image: jesko_wagner.jpg
   address: 
 
 news: false  # includes a list of news items
